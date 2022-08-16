@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "jsx": "react",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "downlevelIteration": true ,
+    "isolatedModules": true ,
+    "allowSyntheticDefaultImports": true ,
+    "esModuleInterop": true ,
+    "forceConsistentCasingInFileNames": true,
+    "strict": false ,
+    "strictNullChecks": false ,
+    "skipLibCheck": true,
+    "useDefineForClassFields": true,
+    "strictPropertyInitialization": false,
+    "lib": [
+      "es2020",
+      "dom"
+    ],
+    "outDir": "build/",
+    "rootDir": "src/",
+  },
+  "include": ["./src/**/*"]
+}
